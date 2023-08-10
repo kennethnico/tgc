@@ -1,4 +1,4 @@
-let map = L.map('map').setView([41.587148, -85.835456],15);
+let map = L.map('map').setView([41.58098170748805, -85.82310817483332],15);
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {maxZoom: 19, attribution: '&copy; OpenStreetMap contributors'}).addTo(map);
 //Marcadores
 var mrkr1 = L.marker([41.58423821413766, -85.83468629014831]).addTo(map);
