@@ -27,6 +27,8 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <!--Importando Leaflet-->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
 
 </head>
 
@@ -44,7 +46,7 @@
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Inicio</a></li>
           <li><a class="nav-link scrollto" href="#about">Acerca</a></li>
-          <li><a class="nav-link scrollto" href="#services">Servicios</a></li>
+          <li><a class="nav-link scrollto" href="#">Servicios</a></li>
           <!--
           <li><a class="nav-link   scrollto" href="#portfolio">Portfolio</a></li>
           <li><a class="nav-link scrollto" href="#team">Team</a></li>
@@ -88,13 +90,15 @@
             <a href="https://youtu.be/69ryCvrYEwI" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Último video</span></a>
           </div>
         </div>
+        <!--
         <div class="col-lg-8 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
           <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
         </div>
+        -->
+        <div class="col-lg-8 order-1 order-lg-2 hero-img" id="map"></div>
       </div>
     </div>
-
-  </section><!-- End Hero -->
+  </section>
 
   <main id="main">
 
