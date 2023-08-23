@@ -44,4 +44,5 @@ let hospitalMark = L.marker([41.58188682922779, -85.83396473695191],{icon:hospit
 hospitalMark.bindPopup("<div class='text-center'><b>Farmacia</b><br>CVS Pharmacy<br><img class='img-thumbnail' src='https://tpc.googlesyndication.com/simgad/4746028788871522326' alt='Prueba de imagen'><br><a href='https://www.cvs.com/minuteclinic/virtual-care/telehealth-options?WT.mc_id=LS_CVSRX_GOOGLE_6472_get_online_care_button' target='_blank'>Ver mas...</a></div>");
 let parkMark = L.marker([41.587892377488906, -85.84174544989568],{icon:parkIcon}).addTo(map);
 parkMark.bindTooltip("Rogers Park");
-let placesMark = L.marker([41.58472821232003, -85.83402024107362],{icon:placesIcon}).addTo(map);
+let placesMark = L.marker([41.57962964261239, -85.83340692716443],{icon:placesIcon}).addTo(map);
+placesMark.bindTooltip("Goshen Public Library");
