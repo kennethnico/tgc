@@ -1,10 +1,9 @@
-#map {
-    position: inherit!important;
-    border: 3px solid red;
-    border-radius: 8px;
-    margin: 0;
-    padding: 0;
-    height: 400px;
-    width: 100%;
-}
 
+.scroller, .table{
+    max-height: 150px!important;
+    width: 350px;
+    border-radius: 10px;
+    border: 1px solid #141313;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
