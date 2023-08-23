@@ -7,3 +7,14 @@
     overflow-y: scroll;
     overflow-x: hidden;
 }
+@media (max-width: 1200px) {
+    .scroller{
+        margin-right: 20px!important;
+        width: 300px;
+    }
+}
+@media (max-width: 991px) {
+    .scroller{
+        margin: auto!important;
+    }
+}

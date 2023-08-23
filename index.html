@@ -88,7 +88,7 @@
           <!--<h2>consectetur adipisicing elit. Cum, fuga omnis!</h2>-->
           <!----------------->
           <div class="scroller overflow-y-scroll">
-            <table class="table table-hover table-dark">
+            <table class="table table-hover table-dark" id="table-places">
               <thead>
               <tr>
                 <th scope="col">#</th>
@@ -99,6 +99,7 @@
               <tr>
                 <th scope="row">1</th>
                 <td>Mark</td>
+                <td style="visibility:collapse; display:none;"> Oculto </td>
               </tr>
               <tr>
                 <th scope="row">1</th>
@@ -276,6 +277,23 @@
   <script src="assets/js/main.js"></script>
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
   <script src="js/main.js"></script>
+  <script>
+    const table = document.getElementById('table-places');
+    const rows = table.getElementsByTagName('tr');
+    Array.from(rows).forEach((row, index) => {
+      row.addEventListener('click', () => {
+        const cells = row.getElementsByTagName('td');
+        console.log(cells[0]);
+        console.log(cells[1]);
+
+        const content1 = cells[0].innerHTML;
+        console.log(content1);
+
+        const content2 = cells[1].innerHTML;
+        console.log(content2);
+      });
+    });
+  </script>
 
 </body>
 
