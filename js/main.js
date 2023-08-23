@@ -30,6 +30,7 @@ const placesIcon = L.icon({
     popupAnchor: [-3, -76] // point from which the popup should open relative to the iconAnchor
 });
 //Marcadores
+var ghighSchool = L.marker([41.58106875753688, -85.82311112504013]).addTo(map);
 var mrkr1 = L.marker([41.58423821413766, -85.83468629014831]).addTo(map);
 mrkr1.bindPopup("<div class='text-center'><b>Sitio de interés</b><br>Nombre.<br><img class='img-thumbnail' src='../assets/img/cta-bg.jpg' alt='Prueba de imagen'><br><a href='https://www.youtube.com/channel/UCpPMJtSltAmFs_oamw7jEig' target='_blank'>Ver mas...</a></div>");
 var mrkr2 = L.marker([41.5812928369633, -85.83179183847852]).addTo(map);
