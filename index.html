@@ -99,27 +99,32 @@
               <tr>
                 <th scope="row">1</th>
                 <td>Mark</td>
-                <td style="visibility:collapse; display:none;"> Oculto </td>
+                <td style="visibility:collapse; display:none;">41.58472821232003,-85.83402024107362</td>
               </tr>
               <tr>
                 <th scope="row">1</th>
                 <td>Mark</td>
+                <td style="visibility:collapse; display:none;">41.58472821232003,-85.83402024107362</td>
               </tr>
               <tr>
                 <th scope="row">1</th>
                 <td>Mark</td>
+                <td style="visibility:collapse; display:none;">41.58472821232003,-85.83402024107362</td>
               </tr>
               <tr>
                 <th scope="row">1</th>
                 <td>Mark</td>
+                <td style="visibility:collapse; display:none;">41.58472821232003,-85.83402024107362</td>
               </tr>
               <tr>
                 <th scope="row">1</th>
                 <td>Mark</td>
+                <td style="visibility:collapse; display:none;">41.58472821232003,-85.83402024107362</td>
               </tr>
               <tr>
                 <th scope="row">1</th>
                 <td>Mark</td>
+                <td style="visibility:collapse; display:none;">41.58472821232003,-85.83402024107362</td>
               </tr>
               </tbody>
             </table>
@@ -291,6 +296,8 @@
 
         const content2 = cells[1].innerHTML;
         console.log(content2);
+        let coords = content2.split(",");
+        map.flyTo(coords,20);
       });
     });
   </script>
