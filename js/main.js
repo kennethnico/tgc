@@ -22,8 +22,6 @@ const hospitalIcon = L.icon({
 const parkIcon = L.icon({
     iconUrl: '../assets/img/icon_pins/park.png',
     iconSize: [50, 50], // size of the icon
-    iconAnchor: [22, 94], // point of the icon which will correspond to marker's location
-    popupAnchor: [-3, -76] // point from which the popup should open relative to the iconAnchor
 });
 const placesIcon = L.icon({
     iconUrl: '../assets/img/icon_pins/places.png',
@@ -42,6 +40,7 @@ mainMark.bindTooltip("The Goshen Chronicles");
 let restaurantMark = L.marker([41.58682178463862, -85.83352039098216],{icon:restaurantIcon}).addTo(map);
 let hospitalMark = L.marker([41.58188682922779, -85.83396473695191],{icon:hospitalIcon}).addTo(map);
 hospitalMark.bindPopup("<div class='text-center'><b>Farmacia</b><br>CVS Pharmacy<br><img class='img-thumbnail' src='https://tpc.googlesyndication.com/simgad/4746028788871522326' alt='Prueba de imagen'><br><a href='https://www.cvs.com/minuteclinic/virtual-care/telehealth-options?WT.mc_id=LS_CVSRX_GOOGLE_6472_get_online_care_button' target='_blank'>Ver mas...</a></div>");
+hospitalMark.bindTooltip("Pharmacy");
 let parkMark = L.marker([41.587892377488906, -85.84174544989568],{icon:parkIcon}).addTo(map);
 parkMark.bindTooltip("Rogers Park");
 let placesMark = L.marker([41.57962964261239, -85.83340692716443],{icon:placesIcon}).addTo(map);
