@@ -4,20 +4,14 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {maxZoom: 19, 
 const mainIcon = L.icon({
     iconUrl: '../assets/img/icon_pins/main_Loc.png',
     iconSize: [50, 50], // size of the icon
-    iconAnchor: [22, 94], // point of the icon which will correspond to marker's location
-    popupAnchor: [-3, -76] // point from which the popup should open relative to the iconAnchor
 });
 const restaurantIcon = L.icon({
     iconUrl: '../assets/img/icon_pins/restaurant.png',
     iconSize: [45, 50], // size of the icon
-    iconAnchor: [22, 94], // point of the icon which will correspond to marker's location
-    popupAnchor: [-3, -76] // point from which the popup should open relative to the iconAnchor
 });
 const hospitalIcon = L.icon({
     iconUrl: '../assets/img/icon_pins/hospital.png',
     iconSize: [50, 50], // size of the icon
-    iconAnchor: [22, 94], // point of the icon which will correspond to marker's location
-    popupAnchor: [-3, -76] // point from which the popup should open relative to the iconAnchor
 });
 const parkIcon = L.icon({
     iconUrl: '../assets/img/icon_pins/park.png',
