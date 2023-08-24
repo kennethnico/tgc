@@ -29,7 +29,7 @@ mrkr2.bindTooltip("Pin Ejemplo");
 var mrkr3 = L.marker([41.57948729254225, -85.82937809055288]).addTo(map);
 let mainMark = L.marker([41.58472821232003, -85.83402024107362],{icon:mainIcon}).addTo(map);
 mainMark.bindTooltip("The Goshen Chronicles");
-mainMark.bindPopup("<div class='text-center'><b>Sitio de interés</b><br>Nombre.<br><img class='img-thumbnail' src='../assets/img/cta-bg.jpg' alt='Prueba de imagen'><br><a href='https://www.youtube.com/channel/UCpPMJtSltAmFs_oamw7jEig' target='_blank'>Ver mas...</a></div>").openOn(map);
+mainMark.bindPopup("<div class='text-center'><b>Sitio de interés</b><br>Nombre.<br><img class='img-thumbnail' src='../assets/img/cta-bg.jpg' alt='Prueba de imagen'><br><a href='https://www.youtube.com/channel/UCpPMJtSltAmFs_oamw7jEig' target='_blank'>Ver mas...</a></div>");
 let restaurantMark = L.marker([41.58682178463862, -85.83352039098216],{icon:restaurantIcon}).addTo(map);
 let hospitalMark = L.marker([41.58188682922779, -85.83396473695191],{icon:hospitalIcon}).addTo(map);
 hospitalMark.bindPopup("<div class='text-center'><b>Farmacia</b><br>CVS Pharmacy<br><img class='img-thumbnail' src='https://tpc.googlesyndication.com/simgad/4746028788871522326' alt='Prueba de imagen'><br><a href='https://www.cvs.com/minuteclinic/virtual-care/telehealth-options?WT.mc_id=LS_CVSRX_GOOGLE_6472_get_online_care_button' target='_blank'>Ver mas...</a></div>");
