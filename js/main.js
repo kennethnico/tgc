@@ -20,11 +20,9 @@ const parkIcon = L.icon({
 const placesIcon = L.icon({
     iconUrl: '../assets/img/icon_pins/places.png',
     iconSize: [50, 50], // size of the icon
-    iconAnchor: [22, 94], // point of the icon which will correspond to marker's location
-    popupAnchor: [-3, -76] // point from which the popup should open relative to the iconAnchor
 });
 //Marcadores
-var ghighSchool = L.marker([41.58106875753688, -85.82311112504013]).addTo(map);
+var highSchool = L.marker([41.58106875753688, -85.82311112504013]).addTo(map);
 var mrkr1 = L.marker([41.58423821413766, -85.83468629014831]).addTo(map);
 var mrkr2 = L.marker([41.5812928369633, -85.83179183847852]).addTo(map);
 mrkr2.bindTooltip("Pin Ejemplo");
